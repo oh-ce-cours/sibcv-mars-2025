@@ -1,5 +1,5 @@
 VAGRANTFILE_API_VERSION = "2"
-BOX_IMAGE = "cloud-image/ubuntu-24.04"
+BOX_IMAGE = "bento/ubuntu-24.04"
 NODE_COUNT = 3
 ENV['VAGRANT_DEFAULT_PROVIDER'] = 'virtualbox'
 
